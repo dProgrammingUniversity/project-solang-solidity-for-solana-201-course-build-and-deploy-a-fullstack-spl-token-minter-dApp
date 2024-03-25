@@ -77,7 +77,7 @@ contract spl_token_minter {
     }
 
     // Burn tokens from the user's token account
-    @mutableAccount(mint) // mint account to burn from
+    /*@mutableAccount(mint) // mint account to burn from
     @mutableAccount(tokenAccount) // token account to burn from
     @signer(owner)
     function burnTokens(uint64 amount) external {
@@ -86,6 +86,6 @@ contract spl_token_minter {
             tx.accounts.tokenAccount.key, // token account
             tx.accounts.owner.key, // owner account
             amount // amount to burn
-        );
+        );*/
    }
 }
