@@ -4,5 +4,6 @@
 target
 **/*.rs.bk
 node_modules
+package.lock.json
 test-ledger
 .yarn
